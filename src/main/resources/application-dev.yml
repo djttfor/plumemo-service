@@ -5,9 +5,9 @@ server:
 spring:
   datasource:
     name: plumemo
-    url:  ${MYSQL_DATABASE:jdbc:mysql://ip地址:3306/hello_blog?useSSL=false&characterEncoding=utf8}
-    username: ${MYSQL_USERNAME:账户名}
-    password: ${MYSQL_PASSWORD:密码}
+    url:  ${MYSQL_DATABASE:jdbc:mysql://localhost:3306/hello_blog?useSSL=false&characterEncoding=utf8}
+    username: ${MYSQL_USERNAME:root}
+    password: ${MYSQL_PASSWORD:1998}
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
